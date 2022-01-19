@@ -1,0 +1,35 @@
+.nav{
+    background-image: radial-gradient(farthest-side at 90% 35%, rgb(253, 253, 253), rgba(226, 168, 9, 0.794));    
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    
+    
+    li{
+        list-style: none;
+
+        a{
+            margin-left: 40px;
+            padding: 5px 40px;
+            background: rgba(31, 206, 182, 0.7);
+            border-radius: 13px;
+            transition: all 0.35s;
+
+            
+        }
+        a:hover{
+            background: rgba(22, 240, 211, 0.4);
+        }
+    }
+    
+}
+
+.footer{
+    position: fixed;
+    background-image: radial-gradient(farthest-side at 90% 35%, rgb(253, 253, 253), rgba(226, 168, 9, 0.794));    
+    text-align: center;
+    height:30px;
+    width: 100%;
+    line-height: 30px;
+    bottom:0;
+}

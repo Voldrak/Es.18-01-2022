@@ -1,0 +1,22 @@
+.title1{
+    text-align: center;
+    font-size: 45px;
+
+        
+}
+
+.testo{
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 5%;
+    text-align: justify;
+    height: 500px;
+
+    .testo1{
+        width: 25%;
+        overflow-y: auto;
+        
+    }
+}
